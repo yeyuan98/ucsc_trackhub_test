@@ -1,0 +1,16 @@
+hub Yadlapalli Motifs SCORE FILTER TEST
+shortLabel Motifs-Yadlapalli
+longLabel Public sequencing visualization from Swathi Yadlapalli lab at the University of Michigan, containing genome-wide motif sites identified by HOMER. Maintained by Ye Yuan
+useOneFile on
+email yeyu@umich.edu
+
+genome dm6
+
+track CT24HIGH-SOX2
+shortLabel SOX2
+longLabel SOX2 WGACAATG
+visibility dense
+filter.score 8:20
+filterLabel.score Logodds filter minimum
+type bigBed 5 .
+bigDataUrl https://github.com/yeyuan98/ucsc_trackhubs/raw/main/data/motifs/7756-YY/CT24HIGH.SOX2.WGACAATG.bb
